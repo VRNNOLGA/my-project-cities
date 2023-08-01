@@ -6,12 +6,7 @@ body {
   display: flex;
   justify-content: center;
 }
-button {
-  background-color: #FEBBCC;
-  border: none;
-  font-family: 'Caveat', cursive;
-  font-size: 30px;
-}
+
 h1 {
   display: flex;
   justify-content: center;
@@ -24,5 +19,38 @@ h2 {
 }
 .letter {
   font-family: 'Caveat', cursive;
+  font-size: 40px;
+  color: #322653;
+}
+.plan {
+  display: inline-block;
+  padding: 10px;
+  margin-left: 40px;
+}
+.words {
+  margin-left: 65px;
+  font-size: 20px;
+  font-family: 'Dancing Script', cursive;
+  font-family: 'Inconsolata', monospace;
+  font-weight: bold;
+}
+.btn {
+    background-color: #FEBBCC;
+    border: none;
+    font-family: 'Caveat', cursive;
+    font-size: 25px;
+}
+.btn1 {
+  background-color: #45CFDD;
+  border: none;
+  font-size: 20px;
+  font-family: 'Caveat', cursive;
+}
+.btn2 {
+  margin-top: 20px;
+  background-color:  #F79BD3;
+  border: none;
   font-size: 30px;
+  font-family: 'Caveat', cursive;
+  flex:1;
 }

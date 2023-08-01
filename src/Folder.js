@@ -31,9 +31,9 @@ function Folder() {
         </div>
         <h2>{name}</h2>
     <div className='block'>
-      <button onClick ={backCity}>BACK</button>
+      <button className="btn" onClick ={backCity}>BACK</button>
       <img src = {image} width="250px" alt="pic"/>
-      <button onClick ={nextCity}>NEXT</button>
+      <button className="btn" onClick ={nextCity}>NEXT</button>
     </div>
         </div>
   

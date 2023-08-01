@@ -1,24 +1,39 @@
 import { useState } from "react";
 import './App.css';
-import { places } from "./Place";
+import { cities } from "./Data";
 
 function FolderTwo() {
-    const [place, setPlace] =useState(places);
-    const {word, show} = places[place];
-
-     return (
+    const [location, setLocation] =useState(cities);
+    const deleteArea =(name) =>{
+      let newArea = location.filter(area=> area.name !==name);
+      setLocation(newArea)
+    }
+      return (
+    <div>
       <div>
-      <div>
-        <h2 className="letter">Choose the place you like</h2>
+        <h2 className="letter">Choose place you like</h2>
         </div>
-        <div>
-        <h3>{word}</h3>
+        {location.map((thing => {
+          const{name, image} = thing;
+          return(
+            <div key ={name} className="plan">
+            <div>
+              <p className="words">{name}</p>
+            </div>
+            <div>
+              <img src ={image} width="200px" alt="pic" />
+            </div>
+            <div className="block">
+            <button className="btn1" onClick={()=>deleteArea(name)}>Delete</button>
+            </div>
+            </div>
+          )
+        }))}
+        <div className ="block">
+        <button className="btn2" onClick={()=>setLocation([])}>Delete all</button>
         </div>
-    <div className='block'>
-      <img src = {show} width="250px" alt="picture"/>
-    </div>
         </div>
-  
+      
     )
   }
   export default FolderTwo;
