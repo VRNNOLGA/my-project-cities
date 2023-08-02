@@ -1,6 +1,6 @@
 import { useState } from "react";
 import './App.css';
-import { cities } from "./Data";
+import { cities } from "./data";
 
 function FolderTwo() {
     const [location, setLocation] =useState(cities);

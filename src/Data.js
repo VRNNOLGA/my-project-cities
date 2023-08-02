@@ -8,6 +8,8 @@ import picture from "./picture.JPG";
 import tivoli from "./tivoli.JPG";
 import island from "./island.JPG";
 import alps from "./alps.JPG";
+import orvieto from "./orvieto.JPG";
+import assisi from "./assisi.JPG";
 export const cities = [
     {
         name: "Venice",
@@ -48,5 +50,13 @@ export const cities = [
     {
         name: "Seiser Alm",
         image: alps
+    },
+    {
+        name: "Orvieto",
+        image: orvieto,
+    },
+    {
+        name: "Assisi",
+        image: assisi
     },
 ]
