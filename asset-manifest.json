@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/my-project-cities/static/css/main.dbc4326f.css",
+    "main.js": "/my-project-cities/static/js/main.a991ca38.js",
+    "static/js/787.6d337e57.chunk.js": "/my-project-cities/static/js/787.6d337e57.chunk.js",
+    "static/media/tivoli.JPG": "/my-project-cities/static/media/tivoli.4a4372de3ccc1421897d.JPG",
+    "static/media/lake.JPG": "/my-project-cities/static/media/lake.8065d90a6acbcb4a8bdb.JPG",
+    "static/media/assisi.JPG": "/my-project-cities/static/media/assisi.fdf868b62e8d52f4ca87.JPG",
+    "static/media/alps.JPG": "/my-project-cities/static/media/alps.ac797996fd4a8837b4fa.JPG",
+    "static/media/florence.JPG": "/my-project-cities/static/media/florence.0c9bda362b8f9a2c3c65.JPG",
+    "static/media/venice.JPG": "/my-project-cities/static/media/venice.9716f54717c2cf9b5a13.JPG",
+    "static/media/island.JPG": "/my-project-cities/static/media/island.22003f18192eedfb1cda.JPG",
+    "static/media/rome.JPG": "/my-project-cities/static/media/rome.b2255707d58303d07d1f.JPG",
+    "static/media/siena.JPG": "/my-project-cities/static/media/siena.98d4eadeea6df6f2fa42.JPG",
+    "static/media/picture.JPG": "/my-project-cities/static/media/picture.a0b51768d049972dbfab.JPG",
+    "static/media/pisa.JPG": "/my-project-cities/static/media/pisa.3f80b70551b53e3c10ad.JPG",
+    "static/media/orvieto.JPG": "/my-project-cities/static/media/orvieto.d8b8a94f2fdd7e54eb58.JPG",
+    "index.html": "/my-project-cities/index.html",
+    "main.dbc4326f.css.map": "/my-project-cities/static/css/main.dbc4326f.css.map",
+    "main.a991ca38.js.map": "/my-project-cities/static/js/main.a991ca38.js.map",
+    "787.6d337e57.chunk.js.map": "/my-project-cities/static/js/787.6d337e57.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dbc4326f.css",
+    "static/js/main.a991ca38.js"
+  ]
+}
